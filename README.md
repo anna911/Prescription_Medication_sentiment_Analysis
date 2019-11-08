@@ -12,10 +12,10 @@ Overview of the Data:
    The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
                     https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
     The reviews are collected from Feb 2008 to 2017 December. 
-    Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions. 
-    
-
-
+    Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions.
+    ## Include 2 drugs with many conditions and reviews .
+   
+   
 
 
 
