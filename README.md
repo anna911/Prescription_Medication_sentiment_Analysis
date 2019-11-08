@@ -14,8 +14,29 @@ Overview of the Data:
     The reviews are collected from Feb 2008 to 2017 December. 
     Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions.
     ## Include 2 drugs with many conditions and reviews .
+Most Reviewed conditions:
+
+ 
    
-   
+DataPipeline : 
+     Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
+     1) Created word tokens for each review.
+     2) Removed Stop words and punctuation marks from the tokens  
+     3) Stemming and Lemmatization on word tokens
+    
+    example of review  sentiment -- exampe goes here 
+    
+    
+    
+Exploratory Data Analysis
+
+
+
+Data Unbalanced	Questions per post
+	
+Links per post	Words per post
+	
+For further EDA please look at the summary here
 
 
 
@@ -27,35 +48,7 @@ Overview of the Data:
 
 
 
-Back to top
 
-Overview of the Data
-
-First Dataset:
-
-This data was collected through the PersonalityCafe forum, as it provides a large selection of people and their MBTI personality type, as well as what they have written.
-
-There are 8675 observations(rows)
-Each row has 1 individual’s personality type and their last 50 posts
-The personality type shown is selected by the user although the forum has a link to the test for those members who do not know what personality type they belong to.
--	type	posts
-0	INFJ	'http://www.youtube.com/watch?v=qsXHcwe3krw
-1	ENTP	'I'm finding the lack of me in these posts ver..'
-2	INTP	'Good one _____ https://www.youtube.com/wat...'
-3	INTJ	'Dear INTP, I enjoyed our conversation the o... '
-4	ENTJ	'You're fired.
-Second Dataset:
-
-This Data set comes from "MBTI Manual" published by CPP
-
-Shows the frequency of each personality type in the population
--	Type	Frequency
-0	ISFJ	13.8%
-1	ESFJ	12.3%
-2	ISTJ	11.6%
-3	ISFP	8.8%
-4	ESTJ	8.7%
-Back to top
 
 Exploratory Data Analysis
 
