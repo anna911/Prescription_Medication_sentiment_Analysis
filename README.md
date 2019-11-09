@@ -25,51 +25,13 @@ Exploratory Data Analysis :
 
 
 DataPipeline : 
+
      Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
      1) Created word tokens for each review.
      2) Removed Stop words and punctuation marks from the tokens  
      3) Stemming and Lemmatization on word tokens
      4) Standardise text 
-
-
-
-
-
-
-
-
-
-
-
-
-Exploratory Data Analysis
-
-Performing EDA on our data set revealed a few things. They are summarized by the graphs below:
-
-Data Unbalanced	Questions per post
-	
-Links per post	Words per post
-	
-For further EDA please look at the summary here
-
-Back to top
-
-Data Pipeline
-
-Let's create a data pipeline, it will aim to do the following:
-
-Standardize the text to ASCII
-Remove weblinks
-Tokenize the words
-Use a stemmer on the words
-Remove HTML decoding
-Remove punctuation
-Remove stopwords
-The code to do this can be found here
-
-
-
-Back to top
+     The code to do this can be found here
 
 Model Selection
 
