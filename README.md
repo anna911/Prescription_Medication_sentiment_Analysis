@@ -21,18 +21,18 @@ Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 differe
 ## Include 2 drugs with many conditions and reviews .Most Reviewed conditions pie chart 
 
 ### Exploratory Data Analysis: 
-Distibution of the reviews , positive,Negative or Neutral 
+
+#### Distibution of the reviews , positive,Negative or Neutral 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
-Most Reviewed  Drugs 
+#### Most Reviewed  Drugs 
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Most_reviewed_drugs.png)
+#### Most Reviewed  Conditions
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Most_reviwed_conditions.png)
 
-Most Reviewed  Conditions
-
-
-Top 2 reviewed drugs and review count by condition
 
    
 
-### DataPipeline : 
+### Data Pipeline : 
 
 Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
 1) Created word tokens for each review.
