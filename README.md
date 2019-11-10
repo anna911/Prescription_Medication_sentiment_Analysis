@@ -4,8 +4,14 @@ There are various formulations and brands for Prescription drugs available in th
 ### Goal:
   I believe Technology should be incorporated  to Healthcare to improve quality care. 
   Based on the Reviews of the Prescription Drugs.
-  1) I want to predict the patients sentiment(experience)  with a "Rx" if it is Positive,Negative or Neutral based on the     	reviews 
-  
+  1) To Predict the patients sentiment(experience)  with a "Rx" if it is Positive,Negative or Neutral based on the reviews 
+  2) To Predict the severity of side effects based on the patients reviews/comments. 
+  1 - No side effects
+  2 - less or Moderate Side effects 
+  3 - High or Severe side effects 
+
+## Sentiment Analysis of the Rx Drug based on the Patients Reviews 
+ 
 ### Overview of the Data: 
 The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
 	    https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
@@ -17,6 +23,12 @@ Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 differe
 ### Exploratory Data Analysis: 
 Distibution of the reviews , positive,Negative or Neutral 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
+Most Reviewed  Drugs 
+
+Most Reviewed  Conditions
+
+
+Top 2 reviewed drugs and review count by condition
 
    
 
@@ -32,27 +44,26 @@ The code to do this can be found here
 
 ### Model Selection:
 
-Tested Various Models the accuracy score for these models  is 
+Tested Various Models the accuracy score for these models.
 
-Random Forest - Accuracy = 0.3614985590778098
-Gradient Boosting Classifier - Accuracy = 0.650787552823665
-Naive Bayes - Accuracy = 0.22051479062620052
-Logistic Regression - Accuracy = 0.6300422589320015
-Support Vector Machine - Accuracy = 0.6699961582789089
+Models and their accuracy scores 
+
+Logistic Regression 
+Accuracy score - 0.77 
+
+Random Forest Classifier 
+Accuracy Score - 0.88
+
+Random Forest Classifier performed the best of all the models chosen. 
+
+Neural Networks and LSTM Model architecture to Predict the classes 
 
 
 
-Extroverted	Introverted
-ENTP	INTP
-	
-Back to top
 
-Conclusion and Next Steps
 
-Took the datasets and performed Exploratory Data Analysis
-Created a data pipeline
-Built several models and picked support vector machine with stochastic gradient descent due to it's high accuracy and precision
-Built a Neural Network which improved gave great accuracy but was overfit to the over represnted classes
-Performed emotional analysis for each personality type
-Created Word Clouds based on the frequancy of words used by each personality type.
-Next step would be to gather data from another place like twitter or facebook and see if we can predict personalities based on that text
+
+
+
+
+
