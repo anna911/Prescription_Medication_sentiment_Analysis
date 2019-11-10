@@ -22,15 +22,17 @@ Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 differe
 
 ### Exploratory Data Analysis: 
 
-#### Distibution of the reviews , positive,Negative or Neutral 
+#### Distibution of the reviews,Positive,Negative or Neutral 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
 #### Most Reviewed  Drugs 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Most_reviewed_drugs.png)
 #### Most Reviewed  Conditions
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Most_reviwed_conditions.png)
-
-
-   
+#### Most Reviewed Conditions and Drugs 
+#### Most common words for High Rated Drugs 
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/WCHighestRateddrugs.png)
+#### Most common words for Low Rated Drugs  
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/lowest_rated.png)
 
 ### Data Pipeline : 
 
