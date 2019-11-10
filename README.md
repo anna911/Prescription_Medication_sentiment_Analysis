@@ -1,4 +1,4 @@
-### Introduction: 
+## Introduction: 
 There are various formulations and brands for Prescription drugs available in the market for every condition(illness)     Physicians/Prescribers choose a formulation based on factors such drug interactions with other drugs the patient is already    taking , effectiveness of the formulation, more importantly side effects.Some Prescription drugs have very adverse side        effects.For example most of the Prescription drugs have side effects such as migrane. sometimes it may lead to worst and      lead to bi-polar disorder.
 
 ### Goal:
