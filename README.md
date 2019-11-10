@@ -1,12 +1,12 @@
-Introduction: 
-      There are various formulations and brands for Prescription drugs available in the market for every condition(illness)  .Physicians/Prescribers choose a formulation based on factors such drug interactions with other drugs the patient is already taking , effectiveness of the formulation, more importantly side effects.Some Prescription drugs have very adverse side effects.For example most of the Prescription drugs have side effects such as migrane. sometimes it may lead to worst and lead to bi-polar disorder.
+### Introduction: 
+      There are various formulations and brands for Prescription drugs available in the market for every condition(illness)  Physicians/Prescribers choose a formulation based on factors such drug interactions with other drugs the patient is already taking , effectiveness of the formulation, more importantly side effects.Some Prescription drugs have very adverse side effects.For example most of the Prescription drugs have side effects such as migrane. sometimes it may lead to worst and lead to bi-polar disorder.
 
-Goal:
+### Goal:
   I believe Technology should be incorporated  to Healthcare to improve quality care. 
   Based on the Reviews of the Prescription Drugs.
   I want to predict the patients experience with a "Rx" it is Positive,Negative or Neutral based on the reviews 
   
-Overview of the Data: 
+### Overview of the Data: 
    The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
                     https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
     The reviews are collected from Feb 2008 to 2017 December. 
@@ -20,11 +20,11 @@ Most Reviewed conditions:
     
     example of review  sentiment -- exampe goes here 
     
-Exploratory Data Analysis : 
+###Exploratory Data Analysis : 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
 
 
-DataPipeline : 
+###DataPipeline : 
 
      Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
      1) Created word tokens for each review.
