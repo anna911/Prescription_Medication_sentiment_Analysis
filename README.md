@@ -1,5 +1,5 @@
 ### Introduction: 
-   There are various formulations and brands for Prescription drugs available in the market for every condition(illness)     	Physicians/Prescribers choose a formulation based on factors such drug interactions with other drugs the patient is already    taking , effectiveness of the formulation, more importantly side effects.Some Prescription drugs have very adverse side        effects.For example most of the Prescription drugs have side effects such as migrane. sometimes it may lead to worst and      lead to bi-polar disorder.
+There are various formulations and brands for Prescription drugs available in the market for every condition(illness)     Physicians/Prescribers choose a formulation based on factors such drug interactions with other drugs the patient is already    taking , effectiveness of the formulation, more importantly side effects.Some Prescription drugs have very adverse side        effects.For example most of the Prescription drugs have side effects such as migrane. sometimes it may lead to worst and      lead to bi-polar disorder.
 
 ### Goal:
   I believe Technology should be incorporated  to Healthcare to improve quality care. 
@@ -7,32 +7,27 @@
   I want to predict the patients experience with a "Rx" it is Positive,Negative or Neutral based on the reviews 
   
 ### Overview of the Data: 
-   The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
-                    https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
-    The reviews are collected from Feb 2008 to 2017 December. 
-    Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions.
-    ## Include 2 drugs with many conditions and reviews .Most Reviewed conditions:
+The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
+	    https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
+The reviews are collected from Feb 2008 to 2017 December. 
+Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions.
 
- 
+## Include 2 drugs with many conditions and reviews .Most Reviewed conditions:
+
+### Exploratory Data Analysis : 
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
    
 
-    
-    example of review  sentiment -- exampe goes here 
-    
-###Exploratory Data Analysis : 
-![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
+### DataPipeline : 
 
+Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
+1) Created word tokens for each review.
+2) Removed Stop words and punctuation marks from the tokens  
+3) Stemming and Lemmatization on word tokens
+4) Standardise text 
+The code to do this can be found here
 
-###DataPipeline : 
-
-     Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
-     1) Created word tokens for each review.
-     2) Removed Stop words and punctuation marks from the tokens  
-     3) Stemming and Lemmatization on word tokens
-     4) Standardise text 
-     The code to do this can be found here
-
-Model Selection
+### Model Selection:
 
 Went through different machine learning algorithms in order to find a model that can predict the personalities. Random would be 1/16 or 0.0625. That is really low, so for our model let's aim to achiece results higher than 50%. The code for this can be found here
 
