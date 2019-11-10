@@ -4,18 +4,20 @@ There are various formulations and brands for Prescription drugs available in th
 ### Goal:
   I believe Technology should be incorporated  to Healthcare to improve quality care. 
   Based on the Reviews of the Prescription Drugs.
-  I want to predict the patients experience with a "Rx" it is Positive,Negative or Neutral based on the reviews 
+  1) I want to predict the patients sentiment(experience)  with a "Rx" if it is Positive,Negative or Neutral based on the     	reviews 
   
 ### Overview of the Data: 
 The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi, Felix Gräßer.
 	    https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
 The reviews are collected from Feb 2008 to 2017 December. 
-Total Number of reviews for all the drugs 215063 for 3671 drugs and 917 different conditions.
+Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 different conditions.
 
-## Include 2 drugs with many conditions and reviews .Most Reviewed conditions:
+## Include 2 drugs with many conditions and reviews .Most Reviewed conditions pie chart 
 
-### Exploratory Data Analysis : 
+### Exploratory Data Analysis: 
+Distibution of the reviews , positive,Negative or Neutral 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/piechart.png)
+
    
 
 ### DataPipeline : 
@@ -26,44 +28,19 @@ Created NLP pipeline for Textscrubbing.The size of the each review varied betwee
 3) Stemming and Lemmatization on word tokens
 4) Standardise text 
 The code to do this can be found here
+5) Created TF-IDF sparse Matrix for the reviews
 
 ### Model Selection:
 
-Went through different machine learning algorithms in order to find a model that can predict the personalities. Random would be 1/16 or 0.0625. That is really low, so for our model let's aim to achiece results higher than 50%. The code for this can be found here
-
-We will use the following models:
+Tested Various Models the accuracy score for these models  is 
 
 Random Forest - Accuracy = 0.3614985590778098
 Gradient Boosting Classifier - Accuracy = 0.650787552823665
 Naive Bayes - Accuracy = 0.22051479062620052
 Logistic Regression - Accuracy = 0.6300422589320015
 Support Vector Machine - Accuracy = 0.6699961582789089
-Back to top
 
-Deep Learning
 
-Creating a Neural Network gives us a much higher accuracy score. The code for this can be found here
-
-Accuracy = 0.9865539761813292
-Back to top
-
-Emotional Analysis
-
-Next let's dive into the emotions by each personality type. The code for this can be found here.
-
-Extroverted	Introverted
-	
-Back to top
-
-WordClouds
-
-Now let's go back to the data and see what we can derive
-
-Created another dictionary with high frequency words by Personality Type
-This can help us make some word clouds but first we need to clean our data
-Created a list of the 30 most common words among all personality types
-Removed the words in that list from our dataset
-Let's get a bit fancy, instead of the default wordclouds, we can use a template for them, since we are talking about the mind, let's use a head.
 
 Extroverted	Introverted
 ENTP	INTP
