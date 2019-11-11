@@ -4,11 +4,8 @@ There are various formulations and brands for Prescription drugs available in th
 ### Goal:
   I believe Technology should be incorporated  to Healthcare to improve quality care. 
   Based on the Reviews of the Prescription Drugs.
-  1) To Predict the patients sentiment(experience)  with a "Rx" if it is Positive,Negative or Neutral based on the reviews 
-  2) To Predict the severity of side effects based on the patients reviews/comments. 
-  1 - No side effects
-  2 - less or Moderate Side effects 
-  3 - High or Severe side effects 
+  * To Predict the patients sentiment(experience)  with a "Rx" if it is Positive,Negative or Neutral based on the reviews 
+
 
 ## Sentiment Analysis of the Rx Drug based on the Patients Reviews 
  
@@ -44,22 +41,18 @@ Created NLP pipeline for Textscrubbing.The size of the each review varied betwee
 The code to do this can be found here
 5) Created TF-IDF sparse Matrix for the reviews
 
+  #### Add pictutre for Data Pipeline 
+
+
 ### Model Selection:
 
 Tested Various Models the accuracy score for these models.
 
 Models and their accuracy scores 
 
-Logistic Regression 
-Accuracy score - 0.77 
-
-Random Forest Classifier 
-Accuracy Score - 0.88
-
-Random Forest Classifier performed the best of all the models chosen. 
-
-Neural Networks and LSTM Model architecture to Predict the classes 
-
+| Logistic Regression |  Gradient Booting | Random Forest   |  LSTM       |
+|---------------------|-------------------|-----------------|-------------|                 
+| 0.76972436112041    | 0.659152624335081 |     0.8869      | 0.853       |                   
 
 
 
