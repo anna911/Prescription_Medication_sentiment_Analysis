@@ -15,7 +15,12 @@ The dataset has been webscraped from http://www.druglib.com/ by Surya Kallumadi,
 The reviews are collected from Feb 2008 to 2017 December. 
 Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 different conditions.
 
-## Include 2 drugs with many conditions and reviews .Most Reviewed conditions pie chart 
+example of the reviews
+##### review 1
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/L1.png)
+##### review 2
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/L-2.png)
+
 
 ### Exploratory Data Analysis: 
 
@@ -58,6 +63,9 @@ Models and their accuracy scores
 Confusion Matrix for the Highest Performing Dta 
 
 ![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Random_forest_confusion_matrix.png)![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/LSTM-sentiment-analysis.png)
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/lg-cm.png)
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/gb-cm.png)
+
 
 
 
