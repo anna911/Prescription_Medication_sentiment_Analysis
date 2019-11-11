@@ -33,7 +33,7 @@ Total Number of reviews for all the drugs 215,063 for 3671 drugs and 917 differe
 
 ### Data Pipeline : 
 
-Created NLP pipeline for Textscrubbing.The size of the each review varied between  700 
+Created NLP pipeline for Textscrubbing.The size of the each review varied between  10 TO ~800 words 
 1) Created word tokens for each review.
 2) Removed Stop words and punctuation marks from the tokens  
 3) Stemming and Lemmatization on word tokens
@@ -55,8 +55,9 @@ Models and their accuracy scores
 | 0.76972436112041    | 0.659152624335081 |     0.8869      | 0.853       |                   
 
 
+Confusion Matrix for the Highest Performing Dta 
 
-
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Random_forest_confusion_matrix.png)![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/LSTM-sentiment-analysis.png)
 
 
 
