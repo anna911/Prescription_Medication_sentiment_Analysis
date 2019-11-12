@@ -46,7 +46,7 @@ Created NLP pipeline for Textscrubbing.The size of the each review varied betwee
 The code to do this can be found here
 5) Created TF-IDF sparse Matrix for the reviews
 
-  #### Add pictutre for Data Pipeline 
+
 
 
 ### Model Selection:
