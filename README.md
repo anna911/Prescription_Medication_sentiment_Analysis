@@ -60,11 +60,12 @@ Models and their accuracy scores
 | 0.76972436112041    | 0.659152624335081 |     0.8869      | 0.853       |                   
 
 
-Confusion Matrix for the Highest Performing Dta 
+Confusion Matrix for the Highest Performing Models 
 
-![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Random_forest_confusion_matrix.png)![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/LSTM-sentiment-analysis.png)
-![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/lg-cm.png)
-![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/gb-cm.png)
+#### Confusion Matrix for Random Forest
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/Random_forest_confusion_matrix.png)
+#### Confusion Matrix for LSTM
+![alt text](https://github.com/anna911/Prescription_Medication_sentiment_Analysis/blob/master/LSTM-sentiment-analysis.png)
 
 
 
